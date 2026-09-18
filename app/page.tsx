@@ -14,11 +14,11 @@ import InternationalPartners from "@/components/home/InternationalPartners";
 import BusinessChallenges from "@/components/home/BusinessChallenges";
 
 export const metadata: Metadata = {
-  title: "DivineeSoft Technology | Transform Ideas Into Digital Success",
+  title: "DivineeSoft Technology | Web, Mobile & AI Solutions",
   description:
-    "Grow your business with DivineeSoft Technology! Expert web, mobile, AI & marketing solutions designed to boost visibility, engagement & results.",
+    "Grow your business with DivineeSoft Technology. Expert web, mobile, AI, and marketing solutions built for real results and long-term scale.",
   keywords:
-    "digital agency, web & app development, AI solutions, marketing strategies, business growth, online success",
+    "digital agency, web development, app development, AI solutions, marketing strategies, business growth",
 };
 
 export default function Home() {

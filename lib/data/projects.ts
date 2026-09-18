@@ -10,8 +10,8 @@ export const projects = [
       date: "2024-06-10",
     },
     seo: {
-      title: "Barberz Link Case Study | DivineeSoft Technology Mobile App Solutions",
-      description: "Discover how DivineeSoft Technology developed the Barberz Link app—a nationwide professional platform exclusively for the barber industry, connecting shops, barbers, schools, and events.",
+      title: "Barberz Link Case Study | DivineeSoft",
+      description: "Case study on how DivineeSoft developed Barberz Link, a nationwide mobile platform connecting barbers, shops, schools, and events.",
       keywords: "Barberz Link, mobile app development, Flutter app, MVVM architecture, Stripe integration, scheduling app, barber job board, licensing directory"
     },
     client: {
@@ -42,8 +42,8 @@ export const projects = [
       date: "2024-06-11",
     },
     seo: {
-      title: "CosmoLink Case Study | DivineeSoft Technology Mobile App Solutions",
-      description: "Explore how DivineeSoft Technology built CosmoLink, the all-in-one platform connecting cosmetologists, estheticians, nail technicians, and beauty professionals with salons and spas.",
+      title: "CosmoLink Case Study | DivineeSoft",
+      description: "How DivineeSoft built CosmoLink, a mobile ecosystem connecting beauty professionals, cosmetologists, and salon owners nationwide.",
       keywords: "CosmoLink, mobile app development, Flutter app, MVVM, Stripe integration, beauty industry app, salon directory, cosmetology job board"
     },
     client: {
@@ -63,7 +63,7 @@ export const projects = [
       playStore: "https://play.google.com/store/apps/details?id=com.cosmolink.app"
     }
   },
-   {
+  {
     id: "beauty-spot-app",
     categories: ["App Development", "Cloud Solutions & DevOps"],
     type: "case-study",
@@ -72,6 +72,11 @@ export const projects = [
       title: "Beauty Spot App",
       slug: "beauty-spot-app",
       date: "2026-05-7",
+    },
+    seo: {
+      title: "Beauty Spot App Case Study | DivineeSoft",
+      description: "How DivineeSoft built the Beauty Spot marketplace app connecting UK clients with vetted beauty service professionals.",
+      keywords: "Beauty Spot, beauty marketplace app, mobile app development, UI/UX design, DivineeSoft Technology"
     },
     client: {
       name: "Beauty Spot",
@@ -99,6 +104,11 @@ export const projects = [
       slug: "tegal-app",
       date: "2026-06-9",
     },
+    seo: {
+      title: "Tegal Matchmaking App | DivineeSoft Case Study",
+      description: "Discover how DivineeSoft built Tegal, an AI-powered iOS matchmaking platform designed for meaningful relationship discovery.",
+      keywords: "Tegal App, iOS app development, AI matchmaking, AI assistant, DivineeSoft Technology"
+    },
     client: {
       name: "Syrol",
     },
@@ -115,68 +125,24 @@ export const projects = [
       appStore: "https://play.google.com/store/apps/details?id=com.syrol.tegal"
     }
   },
-  /*
-  {
-    id: "salamly-app",
-    categories: ["App Development"],
-    type: "case-study",
-    status: "completed",
-
-    meta: {
-      title: "Salamly - Muslim Daily App",
-      slug: "salamly-app",
-      date: "2024-03-15",
-    },
-    seo: {
-      title: "Salamly App Case Study | DivineeSoft Technology Delivers Innovative Mobile Solutions",
-      description: "See how DivineeSoft Technology developed the Salamly App, providing a seamless user experience with innovative mobile solutions that drive engagement and results.",
-      keywords: "Salamly App case study, mobile app development, user experience, DivineeSoft Technology, innovative mobile solutions, app success"
-    },
-
-    client: {
-      name: "Salamly Team",
-    },
-
-    overview: {
-      summary:
-        "A comprehensive lifestyle app for Muslims combining social media, prayer times, and educational content in one seamless experience.",
-      problem:
-        "Muslims often need multiple apps for prayer times, qibla direction, and social connectivity, leading to a fragmented digital experience.",
-      solution:
-        "We developed an all-in-one superapp featuring a halal social feed, accurate prayer tracking, and a digital Quran.",
-      outcome:
-        "Gained traction as a go-to lifestyle app for the Muslim community.",
-    },
-
-    services: ["Mobile App Development", "Social Features", "API Integration"],
-    value: "Unified essential daily spiritual and social needs into a single platform.",
-    images: { thumbnail: "/projects/salamly.png", cover: "/projects/salamly.png", gallery: [] },
-    links: {
-      appStore: "https://play.google.com/store/apps/details?id=com.salamgram.salamgram&hl=en"
-    }
-  },
-  */
   {
     id: "ballerz-network",
     categories: ["App Development"],
     type: "case-study",
     status: "completed",
-
     meta: {
       title: "Ballerz Network",
       slug: "ballerz-network",
       date: "2024-05-20",
     },
     seo: {
-      title: "Ballerz Network Case Study | DivineeSoft Technology Creates Connected Experiences",
-      description: "Explore how DivineeSoft Technology built the Ballerz Network app, connecting communities through engaging digital experiences and smart mobile solutions.",
+      title: "Ballerz Network Case Study | DivineeSoft",
+      description: "Explore how DivineeSoft built Ballerz Network, a mobile app digitalizing sports scouting and agency recruitment for athletes.",
       keywords: "Ballerz Network case study, mobile app development, community app, DivineeSoft Technology, app engagement, digital solutions"
     },
-
     client: {
       name: "Ballerz Network",
     },
-
     overview: {
       summary:
         "Ballerz Network aims to digitalize the sports agency industry, connecting players, coaches, and agents in a single ecosystem.",
@@ -187,7 +153,6 @@ export const projects = [
       outcome:
         "Streamlined the scouting process and improved visibility for upcoming athletes across the network.",
     },
-
     services: ["Mobile App Development", "Social Networking", "Sports Tech"],
     value: "Digitalizing the pathway to professional sports.",
     images: { thumbnail: "/projects/ballerz.png", cover: "/projects/ballerz.png", gallery: [] },
@@ -200,29 +165,25 @@ export const projects = [
     categories: ["App Development", "SaaS Product Development"],
     type: "case-study",
     status: "completed",
-
     meta: {
       title: "Sariea - Home Services",
       slug: "sariea",
       date: "2024-01-15",
     },
     seo: {
-      title: "Sariea Case Study | DivineeSoft Technology Transforms Business Solutions",
-      description: "Learn how DivineeSoft Technology developed Sariea, delivering innovative web and app solutions tailored to business needs and driving measurable growth.",
+      title: "Sariea Home Services Case Study | DivineeSoft",
+      description: "Learn how DivineeSoft built Sariea, a high-rated on-demand home maintenance and service marketplace mobile application.",
       keywords: "Sariea case study, web development, app development, DivineeSoft Technology, innovative business solutions, growth-driven solutions"
     },
-
     client: {
       name: "Sovanza LLC",
     },
-
     overview: {
       summary: "Pakistan's leading platform for professional home and personal services, connecting customers with vetted experts for a seamless upkeep experience.",
       problem: "Homeowners faced significant stress and time loss managing reliable maintenance for ACs, plumbing, and electrical issues due to a fragmented market.",
       solution: "We built a robust mobile platform using FlutterFlow that centralizes booking, vetting, and payments, offering transparent pricing and punctual doorstep service.",
       outcome: "Transformed home maintenance into a hassle-free digital experience, achieving a 5.0/5 rating on the App Store.",
     },
-
     services: ["App Development", "FlutterFlow", "UI/UX Design"],
     value: "Streamlined home services industry with a trusted digital marketplace.",
     images: {
@@ -236,7 +197,7 @@ export const projects = [
   },
   {
     id: "barberz-link-web",
-    categories: ["Web Development" , "Cloud Solutions & DevOps"],
+    categories: ["Web Development", "Cloud Solutions & DevOps"],
     type: "case-study",
     status: "completed",
     meta: {
@@ -245,8 +206,8 @@ export const projects = [
       date: "2024-06-12",
     },
     seo: {
-      title: "Barberz Link Web Case Study | DivineeSoft Technology Web Development",
-      description: "Discover how DivineeSoft Technology developed the Barberz Link Web platform—a responsive, high-performance website using React, Tailwind CSS, and Next.js.",
+      title: "Barberz Link Web Case Study | DivineeSoft",
+      description: "How DivineeSoft developed the Barberz Link web platform using Next.js, React, and Tailwind CSS to drive brand visibility and app onboarding.",
       keywords: "Barberz Link Web, web development, React web, Next.js, Tailwind CSS, DivineeSoft Technology, responsive website, professional barber platform"
     },
     client: {
@@ -276,8 +237,8 @@ export const projects = [
       date: "2024-06-13",
     },
     seo: {
-      title: "CosmoLink Web Case Study | DivineeSoft Technology Web Development",
-      description: "Read how DivineeSoft Technology built the CosmoLink Web platform—a responsive, modern marketing and onboarding site using React, Tailwind CSS, and Next.js.",
+      title: "CosmoLink Web Case Study | DivineeSoft",
+      description: "How DivineeSoft built CosmoLink Web using Next.js and Tailwind CSS to power brand onboarding and national licensing search.",
       keywords: "CosmoLink Web, web development, React web, Next.js, Tailwind CSS, DivineeSoft Technology, beauty industry web"
     },
     client: {
@@ -301,22 +262,19 @@ export const projects = [
     categories: ["Web Development", "Search Engine Optimization"],
     type: "case-study",
     status: "completed",
-
     meta: {
       title: "Hydrolyz - Sustainable Tech",
       slug: "hydrolyz-seo",
       date: "2024-02-20",
     },
     seo: {
-      title: "Hydrolyz SEO Case Study | DivineeSoft Technology Drives Online Visibility",
-      description: "Learn how DivineeSoft Technology improved Hydrolyz’s search rankings with data-driven SEO strategies, increasing traffic and business growth.",
+      title: "Hydrolyz SEO Case Study | DivineeSoft",
+      description: "Learn how DivineeSoft improved Hydrolyz's organic search visibility and B2B leads through comprehensive technical and content SEO.",
       keywords: "Hydrolyz SEO case study, search engine optimization, online visibility, DivineeSoft Technology, traffic growth, digital marketing"
     },
-
     client: {
       name: "Hydrolyz",
     },
-
     overview: {
       summary:
         "A comprehensive SEO overhaul for Hydrolyz, a leader in sustainable electrochemical solutions, to drive high-intent industrial traffic.",
@@ -327,7 +285,6 @@ export const projects = [
       outcome:
         "Achieved page-one rankings for industry-specific terms and significantly increased qualified B2B leads.",
     },
-
     services: ["Technical SEO", "Keyword Research", "B2B Strategy"],
     value: "Positioned Hydrolyz as a digital leader in sustainable tech.",
     images: { thumbnail: "/projects/hydrolyz.png", cover: "/projects/hydrolyz.png", gallery: [] },
@@ -340,22 +297,19 @@ export const projects = [
     categories: ["Search Engine Optimization"],
     type: "case-study",
     status: "completed",
-
     meta: {
       title: "Search Elevation Campaign",
       slug: "search-elevation",
       date: "2021-11-20",
     },
     seo: {
-      title: "Search Elevation Case Study | DivineeSoft Technology Maximizes Digital Impact",
-      description: "Discover how DivineeSoft Technology delivered Search Elevation solutions, enhancing online presence, SEO performance, and measurable business results.",
+      title: "Search Elevation SEO Case Study | DivineeSoft",
+      description: "How DivineeSoft delivered a 120% increase in organic search traffic through technical SEO audit, remediation, and keyword targeting.",
       keywords: "Search Elevation case study, SEO services, digital marketing, DivineeSoft Technology, business growth, online presence"
     },
-
     client: {
       name: "Hydrolyz",
     },
-
     overview: {
       summary:
         "A comprehensive SEO overhaul focused on technical remediation and high-intent keyword targeting to recover lost organic traffic.",
@@ -366,231 +320,28 @@ export const projects = [
       outcome:
         "Achieved first-page rankings for 15 primary keywords and increased organic traffic by 120% over six months.",
     },
-
     services: ["Technical SEO", "Keyword Research", "Link Building"],
     value: "Restored and exceeded previous organic traffic baselines.",
     images: { thumbnail: "/projects/seo.jpg", cover: "/projects/seo.jpg", gallery: [] },
   },
-  /*
-  {
-    id: "alt-optimization",
-    categories: ["Web Development", "AI Development and Services", "Search Engine Optimization"], // Multi-Category
-    type: "case-study",
-    status: "completed",
-
-    meta: {
-      title: "AltExt AI Optimization Tool",
-      slug: "alt-optimization",
-      date: "2021-11-20",
-    },
-    seo: {
-      title: "ALT Optimization Case Study | DivineeSoft Technology Boosts Performance",
-      description: "Discover how DivineeSoft Technology optimized ALT processes, enhancing website efficiency, user experience, and achieving measurable digital growth.",
-      keywords: "ALT Optimization case study, website optimization, performance improvement, DivineeSoft Technology, user experience, digital growth"
-    },
-
-    client: {
-      name: "AltExt",
-    },
-
-    overview: {
-      summary:
-        "An intelligent SaaS tool that leverages Computer Vision to automatically generate SEO-optimized alt text for images.",
-      problem:
-        "eCommerce stores with thousands of products struggled to manually write alt text, hurting their accessibility scores and image SEO.",
-      solution:
-        "We built an AI pipeline that analyzes images and generates descriptive, keyword-rich text automatically, ensuring WCAG compliance.",
-      outcome:
-        "Processed over 50,000 images in the beta phase, saving clients hundreds of hours of manual data entry.",
-    },
-
-    services: ["AI Integration", "Python/Django", "SaaS Development"],
-    value: "Automated a tedious SEO task using cutting-edge AI.",
-    images: { thumbnail: "/projects/altext.png", cover: "/projects/altext.png", gallery: [] },
-    links: {
-      website: "https://altext.co"
-    }
-  },
-  {
-    id: "wird-book-mobile-app",
-    categories: ["App Development"],
-    type: "case-study",
-    status: "completed",
-
-    meta: {
-      title: "Wird Book App",
-      slug: "wird-book-mobile-app",
-      date: "2021-11-20",
-    },
-    seo: {
-      title: "Wird Book Mobile App Case Study | DivineeSoft Technology Creates Seamless Experiences",
-      description: "Explore how DivineeSoft Technology developed the Wird Book Mobile App, offering users a smooth and engaging mobile experience with innovative features.",
-      keywords: "Wird Book app case study, mobile app development, user experience, DivineeSoft Technology, innovative mobile solutions, app engagement"
-    },
-
-    client: {
-      name: "Mr. Ahmed Khan",
-    },
-
-    overview: {
-      summary:
-        "A cross-platform mobile application designed to digitize daily spiritual litanies with tracking and audio features.",
-      problem:
-        "Users found it difficult to carry physical books for their daily readings and lacked a way to track their consistency.",
-      solution:
-        "We developed a Flutter-based app offering offline access, progress tracking, and high-quality audio recitations.",
-      outcome:
-        "Achieved 5,000+ downloads with a 4.8-star rating on both App Store and Play Store.",
-    },
-
-    services: ["Flutter Development", "UI Design", "Audio Streaming"],
-    value: "Digitalized a traditional practice for modern convenience.",
-    images: { thumbnail: "/projects/wirdbook.png", cover: "/projects/wirdbook.png", gallery: [] },
-    links: {
-      appStore: "https://play.google.com/store/apps/details?id=wirdbook.eito&hl=en"
-    }
-  },
-  {
-    id: "instacalm-anxiety-treatment",
-    categories: ["App Development"],
-    type: "case-study",
-    status: "completed",
-
-    meta: {
-      title: "InstaCalm Therapy App",
-      slug: "instacalm-anxiety-treatment",
-      date: "2021-11-20",
-    },
-    seo: {
-      title: "Instacalm Case Study | DivineeSoft Technology Builds Innovative Health Apps",
-      description: "See how DivineeSoft Technology developed Instacalm, a mobile solution for anxiety treatment, combining innovation and user-focused features for real impact.",
-      keywords: "Instacalm case study, health app development, anxiety treatment app, DivineeSoft Technology, innovative mobile solutions, user-focused app"
-    },
-
-    client: {
-      name: "Ms. Laura Bennett",
-    },
-
-    overview: {
-      summary:
-        "A mental health application providing users with structured hypnotherapy sessions and panic-relief tools on the go.",
-      problem:
-        "Accessible, immediate anxiety relief was unavailable for patients outside of scheduled therapy hours.",
-      solution:
-        "We created an intuitive, calming mobile interface that delivers audio therapy sessions and breathing exercises instantly.",
-      outcome:
-        "Recommended by 20+ therapists to their patients as a supplementary tool for anxiety management.",
-    },
-
-    services: ["React Native", "Audio Engineering", "HIPAA Compliance"],
-    value: "Provided critical mental health support directly in users' pockets.",
-    images: { thumbnail: "/projects/instacalm.png", cover: "/projects/instacalm.png", gallery: [] },
-    links: {
-      appStore: "https://play.google.com/store/apps/details?id=com.instacalm.instacalm_anxiety_treatment1&hl=en"
-    }
-  },
-
-  {
-    id: "pricepro-mobile-app",
-    categories: ["App Development"],
-    type: "case-study",
-    status: "completed",
-
-    meta: {
-      title: "PricePro Comparison App",
-      slug: "pricepro-mobile-app",
-      date: "2021-11-20",
-    },
-    seo: {
-      title: "PricePro Mobile App Case Study | DivineeSoft Technology Delivers Smart Solutions",
-      description: "Learn how DivineeSoft Technology created the PricePro Mobile App, offering efficient, innovative features to streamline pricing and enhance user experience.",
-      keywords: "PricePro app case study, mobile app development, innovative features, DivineeSoft Technology, business solutions, app efficiency"
-    },
-
-    client: {
-      name: "Mr. Kevin Roberts",
-    },
-
-    overview: {
-      summary:
-        "A consumer utility app that aggregates prices from major retailers to ensure users get the best deal instantly.",
-      problem:
-        "Shoppers had to visit multiple websites or stores to compare prices, which was time-consuming and inefficient.",
-      solution:
-        "We developed an app that scrapes and aggregates real-time pricing data, allowing users to scan barcodes for instant comparisons.",
-      outcome:
-        "Garnered 15,000 monthly active users and facilitated over $500k in transaction volume through affiliate links.",
-    },
-
-    services: ["Mobile Development", "Data Aggregation", "API Integration"],
-    value: "Empowered consumers to save money with zero friction.",
-    images: { thumbnail: "/projects/pricepro.png", cover: "/projects/pricepro.png", gallery: [] },
-    links: {
-      appStore: "http://play.google.com/store/apps/details?id=com.chredsoft.pricepro&hl=en"
-    }
-  },
-
-  {
-    id: "drafidox-image-to-text",
-    categories: ["Web Development", "AI Development and Services"], // Multi-Category
-    type: "case-study",
-    status: "completed",
-
-    meta: {
-      title: "DrafiDox OCR Platform",
-      slug: "drafidox-image-to-text",
-      date: "2021-11-20",
-    },
-    seo: {
-      title: "Drafidox Image-to-Text Case Study | DivineeSoft Technology Innovates AI Solutions",
-      description: "See how DivineeSoft Technology created Drafidox, an AI-powered image-to-text solution delivering accurate, fast, and reliable results for businesses.",
-      keywords: "Drafidox case study, AI solutions, image-to-text, DivineeSoft Technology, innovative AI tools, business automation"
-    },
-
-    client: {
-      name: "DRAFIDOX",
-    },
-
-    overview: {
-      summary:
-        "A high-performance web application utilizing Optical Character Recognition (OCR) to convert static documents into editable formats.",
-      problem:
-        "Professionals were spending excessive time manually typing out data from scanned PDF documents and images.",
-      solution:
-        "We built a secure web app integrating Tesseract and machine learning models to accurately extract text while maintaining formatting.",
-      outcome:
-        "Reduced document processing time by 90% for enterprise users.",
-    },
-
-    services: ["React.js", "Machine Learning", "Cloud Computing"],
-    value: "Streamlined workflow automation through intelligent document processing.",
-    images: { thumbnail: "/projects/drafidox.png", cover: "/projects/drafidox.png", gallery: [] },
-    links: {
-      website: "https://drafidox.com/"
-    }
-  },
-  */
   {
     id: "fec-school-app",
     categories: ["App Development"],
     type: "case-study",
     status: "completed",
-
     meta: {
       title: "FEC School App",
       slug: "fec-school-app",
       date: "2024-04-10",
     },
     seo: {
-      title: "FEC School App Case Study | DivineeSoft Technology Transforms Education Digitally",
-      description: "Discover how DivineeSoft Technology developed the FEC School App, creating an engaging, easy-to-use platform to enhance learning and educational management.",
+      title: "FEC School App Case Study | DivineeSoft",
+      description: "Discover how DivineeSoft created the FEC School App using Flutter to streamline school communication, student profiles, and notices.",
       keywords: "FEC School App case study, education app development, DivineeSoft Technology, digital learning solutions, innovative school app, student engagement"
     },
-
     client: {
       name: "Froebel Education Centre",
     },
-
     overview: {
       summary:
         "The official mobile application for Froebel Education Centre, streamlining communication between the school, parents, and students.",
@@ -601,7 +352,6 @@ export const projects = [
       outcome:
         "Improved parent-teacher engagement and digitized administrative workflows for the school.",
     },
-
     services: ["Mobile App Development using Flutter", "School Management System", "Digital Forms"],
     value: "Connected the school ecosystem with instant updates and digital tools.",
     images: { thumbnail: "/projects/fec-school.png", cover: "/projects/fec-school.png", gallery: [] },
@@ -619,12 +369,17 @@ export const projects = [
       slug: "multilingual-voice-assistant",
       date: "2024-06-01",
     },
+    seo: {
+      title: "Multilingual Voice Assistant | DivineeSoft",
+      description: "Automated multilingual voice agent infrastructure built with Telnyx, LiveKit, Whisper, and GPT for real-time customer telephony.",
+      keywords: "multilingual voice assistant, AI voice agent, LiveKit, Whisper, Telnyx, GPT-4, DivineeSoft Technology"
+    },
     client: {
-      name: "Jimani.ai", // Inferred from link
+      name: "Jimani.ai",
     },
     overview: {
       summary: "A fully automated multilingual voice assistant that dynamically creates and configures live phone agents.",
-      problem: " Businesses needed scalable, multilingual voice agents without complex manual setup for telephony and AI integration.",
+      problem: "Businesses needed scalable, multilingual voice agents without complex manual setup for telephony and AI integration.",
       solution: "We built a system using Telnyx, LiveKit, Whisper, and GPT that automatically provisions phone numbers and deploys real-time voice agents.",
       outcome: "Enabled instant deployment of multilingual voice agents with minimal user input.",
     },
@@ -644,6 +399,11 @@ export const projects = [
       title: "SAFE Support Chatbot",
       slug: "safe-support-chatbot",
       date: "2024-05-15",
+    },
+    seo: {
+      title: "SAFE Support Chatbot Case Study | DivineeSoft",
+      description: "Empathetic, crisis-aware AI support assistant engineered with FastAPI and GPT-4-Turbo adhering to CRAFT safety principles.",
+      keywords: "SAFE Support Chatbot, AI safety, crisis detection, FastAPI, GPT-4-Turbo, DivineeSoft Technology"
     },
     client: {
       name: "Educational Platform",
@@ -668,6 +428,11 @@ export const projects = [
       slug: "eu-secure-search",
       date: "2024-04-20",
     },
+    seo: {
+      title: "EU-SecureSearch Case Study | DivineeSoft",
+      description: "GDPR-compliant privacy-first search engine using Microsoft Presidio and FastAPI for real-time PII anonymization.",
+      keywords: "EU-SecureSearch, GDPR search, PII anonymization, Microsoft Presidio, FastAPI, DivineeSoft Technology"
+    },
     client: {
       name: "Privacy-Focused Org",
     },
@@ -690,6 +455,11 @@ export const projects = [
       title: "Bank Statement Processor",
       slug: "bank-statement-processor",
       date: "2024-03-10",
+    },
+    seo: {
+      title: "Bank Statement Processor | DivineeSoft",
+      description: "AI-driven transaction extraction system converting unstructured PDF bank statements into clean financial data.",
+      keywords: "Bank Statement Processor, document AI, PDF transaction extraction, FinTech, DivineeSoft Technology"
     },
     client: {
       name: "FinTech Client",
@@ -714,6 +484,11 @@ export const projects = [
       slug: "ugo-edit",
       date: "2024-02-05",
     },
+    seo: {
+      title: "Ugo Edit AI Image Suite | DivineeSoft",
+      description: "Web-based AI image editing platform featuring background removal, upscaling, and virtual try-ons using PyTorch and React.",
+      keywords: "Ugo Edit, AI image editor, PyTorch, computer vision, React web app, DivineeSoft Technology"
+    },
     client: {
       name: "Ugo",
     },
@@ -737,6 +512,11 @@ export const projects = [
       slug: "technologies-edu",
       date: "2024-01-15",
     },
+    seo: {
+      title: "ATECS Engineering Case Study | DivineeSoft",
+      description: "Corporate website design and engineering for ATECS, showcasing industrial technologies and global engineering projects.",
+      keywords: "ATECS case study, engineering corporate website, React web development, UI/UX design, DivineeSoft Technology"
+    },
     client: {
       name: "ATECS",
     },
@@ -753,5 +533,4 @@ export const projects = [
       website: "https://technologiesedu.com/"
     }
   },
- 
 ];

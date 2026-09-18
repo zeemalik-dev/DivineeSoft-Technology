@@ -1,135 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-<url>
-  <loc>https://www.divineesoft.com/</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/about</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/services</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/services/web-development</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/services/app-development</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/services/ai-services</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/services/digital-marketing</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/services/seo</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/contact</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/faqs</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/ballerz-network</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/sariea</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/barberz-link-web</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/cosmo-link-web</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/hydrolyz-seo</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/search-elevation</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/fec-school-app</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/multilingual-voice-assistant</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/safe-support-chatbot</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/eu-secure-search</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/bank-statement-processor</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/ugo-edit</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/barberz-link</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.divineesoft.com/case-studies/cosmo-link</loc>
-  <lastmod>2026-01-20T16:31:21+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.divineesoft.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/services</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/faqs</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/services/web-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/services/app-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/services/ai-services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/services/digital-marketing</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/services/seo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/services/cloud-solutions</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/services/saas-development</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/barberz-link</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/cosmo-link</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/beauty-spot-app</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/tegal-app</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/ballerz-network</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/sariea</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/barberz-link-web</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/cosmo-link-web</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/hydrolyz-seo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/search-elevation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/fec-school-app</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/multilingual-voice-assistant</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/safe-support-chatbot</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/eu-secure-search</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/bank-statement-processor</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/ugo-edit</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://www.divineesoft.com/case-studies/technologies-edu</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
 </urlset>

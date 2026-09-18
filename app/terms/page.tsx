@@ -1,10 +1,16 @@
-
 import CTASection from "@/components/ui/CTASection";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | DivineeSoft Technology",
+  description:
+    "Read the terms and conditions governing the use of DivineeSoft Technology's website, software products, and engineering services.",
+  keywords: "terms of service, legal terms, DivineeSoft Technology, user agreement",
+};
 
 export default function TermsPage() {
   return (
     <>
-
       <main className="min-h-screen bg-background pt-24 pb-24">
         <section className="container mx-auto px-6 max-w-4xl">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-8">Terms of Service</h1>
@@ -52,5 +58,5 @@ export default function TermsPage() {
         <CTASection />
       </main>
     </>
-  )
+  );
 }

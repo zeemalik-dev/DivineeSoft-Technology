@@ -24,9 +24,9 @@ import PageHero from "@/components/ui/PageHero";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About DivineeSoft Technology | Driving Innovation & Business Growth",
+  title: "About Us | DivineeSoft Technology",
   description:
-    "DivineeSoft Technology’s mission is to help businesses of all sizes deliver innovative web, mobile, AI, and marketing solutions tailored to customer needs. Learn about our company here.",
+    "Learn about DivineeSoft Technology: our story, team, and mission to deliver custom web, mobile, AI, and digital growth solutions.",
   keywords:
     "DivineeSoft Technology, digital agency, business growth, innovation, web development, AI solutions, digital marketing",
 };

@@ -3,7 +3,13 @@ import { services } from '@/lib/data';
 import ServiceDetailClient from './ServiceDetailClient';
 
 type Props = {
-  params: Promise<{ slug: string }>
+  params: Promise<{ slug: string }>;
+};
+
+export async function generateStaticParams() {
+  return services.map((service) => ({
+    slug: service.id,
+  }));
 }
 
 export async function generateMetadata(
@@ -12,17 +18,21 @@ export async function generateMetadata(
   const { slug } = await params;
   const service = services.find((s) => s.id === slug);
 
-  if (!service || !service.seo) {
+  if (!service) {
     return {
-      title: 'Service Not Found',
-    }
+      title: 'Service Not Found | DivineeSoft',
+      description: 'The requested service could not be found.',
+    };
   }
 
+  const title = service.seo?.title || `${service.title} | DivineeSoft`;
+  const description = service.seo?.description || service.desc;
+
   return {
-    title: service.seo.title,
-    description: service.seo.description,
-    keywords: service.seo.keywords,
-  }
+    title,
+    description,
+    keywords: service.seo?.keywords,
+  };
 }
 
 export default function ServiceDetailPage({ params }: Props) {

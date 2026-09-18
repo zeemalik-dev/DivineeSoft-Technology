@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import CaseStudiesClient from './CaseStudiesClient';
 
 export const metadata: Metadata = {
-  title: "Case Studies | DivineeSoft Technology Showcases Real Business Success",
-  description: "See how DivineeSoft Technology has transformed businesses with web, app, AI, and marketing solutions. Explore our case studies for real results and success stories.",
+  title: "Case Studies | DivineeSoft Technology",
+  description: "Explore case studies and success stories from DivineeSoft Technology across mobile apps, web platforms, and AI engineering.",
   keywords: "case studies, success stories, DivineeSoft Technology projects, web development results, app development case studies, AI solutions, marketing success",
 };
 

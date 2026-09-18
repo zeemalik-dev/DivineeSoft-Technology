@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import FAQsClient from './FAQsClient';
 
 export const metadata: Metadata = {
-  title: "FAQs | DivineeSoft Technology Answers Your Web, App & Marketing Questions",
-  description: "Find answers to common questions about DivineeSoft Technology’s web, app, AI, and marketing services. Get the insights you need to make informed decisions.",
+  title: "FAQs | DivineeSoft Technology",
+  description: "Find answers to frequently asked questions about DivineeSoft Technology's web development, app engineering, AI, and pricing.",
   keywords: "FAQs, DivineeSoft Technology questions, web development FAQs, app development FAQs, AI services answers, digital marketing questions, business solutions",
 };
 

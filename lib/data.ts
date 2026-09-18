@@ -69,8 +69,8 @@ export const services = [
       { question: "Can I update the content myself?", answer: "Yes, we typically build on CMS platforms or provide admin dashboards that allow you to easily manage content." }
     ],
     seo: {
-      title: "Web Development Services | DivineeSoft Technology Builds Your Vision",
-      description: "Transform your ideas into high-performing websites with DivineeSoft Technology’s web development services—custom, innovative, and designed to drive real business growth.",
+      title: "Web Development Services | DivineeSoft Technology",
+      description: "Build high-performance, scalable websites and custom web apps with DivineeSoft Technology's expert web engineering team.",
       keywords: "web development services, custom website development, responsive web design, DivineeSoft Technology, business growth, innovative websites"
     }
   },
@@ -116,8 +116,8 @@ export const services = [
       { question: "What about maintenance?", answer: "We offer ongoing maintenance packages to ensure your app stays updated with the latest OS versions and security patches." }
     ],
     seo: {
-      title: "App Development Services | DivineeSoft Technology Creates Smart Apps",
-      description: "Turn your ideas into powerful mobile apps with DivineeSoft Technology’s app development services—custom, innovative, and built to drive business growth.",
+      title: "Mobile App Development | DivineeSoft Technology",
+      description: "Develop scalable native and cross-platform iOS and Android mobile applications with DivineeSoft Technology's app engineers.",
       keywords: "app development services, mobile app development, custom apps, DivineeSoft Technology, innovative app solutions, business growth apps"
     }
   },
@@ -163,8 +163,8 @@ export const services = [
       { question: "Is my data secure?", answer: "Yes, we prioritize data security and compliance, ensuring your proprietary data is handled with strict confidentiality." }
     ],
     seo: {
-      title: "AI Services | DivineeSoft Technology Powers Smarter Business Solutions",
-      description: "Leverage AI to transform your business with DivineeSoft Technology’s AI services—innovative solutions designed to boost efficiency, insight, and growth.",
+      title: "AI Development & Solutions | DivineeSoft",
+      description: "Transform operations with custom AI solutions, machine learning models, NLP assistants, and intelligent workflow automation.",
       keywords: "AI services, artificial intelligence solutions, business AI, DivineeSoft Technology, AI automation, smart business solutions, innovative AI"
     }
   },
@@ -210,8 +210,8 @@ export const services = [
       { question: "Do you handle ad spend?", answer: "We manage the ad spend budget you set, optimizing for the highest ROI. The ad spend itself is paid directly to the platforms." }
     ],
     seo: {
-      title: "Digital Marketing Services | DivineeSoft Technology Boosts Your Growth",
-      description: "Grow your brand and reach more customers with DivineeSoft Technology’s digital marketing services—creative, data-driven strategies designed for real results.",
+      title: "Digital Marketing Services | DivineeSoft",
+      description: "Drive traffic and qualified leads with data-driven PPC campaigns, social media marketing, and strategic digital marketing from DivineeSoft.",
       keywords: "digital marketing services, online marketing, SEO, social media marketing, DivineeSoft Technology, business growth, marketing strategies"
     }
   },
@@ -257,8 +257,8 @@ export const services = [
       { question: "Do you guarantee #1 ranking?", answer: "No ethical SEO agency can guarantee a #1 ranking due to the unpredictable nature of search algorithms, but we guarantee improved visibility and traffic." }
     ],
     seo: {
-      title: "SEO Services | DivineeSoft Technology Boosts Your Online Visibility",
-      description: "Improve your search rankings and grow your business with DivineeSoft Technology’s SEO services—strategic, data-driven solutions designed for real results.",
+      title: "SEO Services & Optimization | DivineeSoft",
+      description: "Improve your organic search rankings and drive high-intent traffic with technical SEO, keyword strategy, and link building from DivineeSoft.",
       keywords: "SEO services, search engine optimization, online visibility, DivineeSoft Technology, website ranking, digital marketing, business growth"
     }
   },
@@ -305,8 +305,8 @@ export const services = [
     { question: "Do you offer ongoing infrastructure management?", answer: "Yes, we provide 24/7 monitoring, incident response, and monthly optimization reviews as part of our managed cloud packages." }
   ],
   seo: {
-    title: "Cloud Solutions & DevOps | DivineeSoft Technology Scales Your Infrastructure",
-    description: "Scale confidently with DivineeSoft Technology's cloud solutions—infrastructure, migration, and DevOps automation built for uptime, security, and growth.",
+    title: "Cloud Solutions & DevOps | DivineeSoft",
+    description: "Scale your cloud infrastructure with AWS/GCP architecture, zero-downtime migration, CI/CD pipelines, and 24/7 uptime monitoring.",
     keywords: "cloud solutions, DevOps services, cloud migration, AWS development, cloud infrastructure, DivineeSoft Technology, CI/CD automation"
   }
 },
@@ -352,8 +352,8 @@ export const services = [
     { question: "Can you scale our existing SaaS product?", answer: "Absolutely. We regularly take over existing SaaS codebases to improve architecture, performance, and add new features." }
   ],
   seo: {
-    title: "SaaS Development Services | DivineeSoft Technology Builds Your Platform",
-    description: "Launch and scale your SaaS product with DivineeSoft Technology—multi-tenant architecture, billing integration, and engineering built for growth.",
+    title: "SaaS Product Development | DivineeSoft",
+    description: "Build and launch scalable multi-tenant SaaS products with subscription billing, modern frontend, and resilient backend architecture.",
     keywords: "SaaS development, SaaS product design, multi-tenant architecture, subscription billing, SaaS MVP, DivineeSoft Technology"
   }
 }

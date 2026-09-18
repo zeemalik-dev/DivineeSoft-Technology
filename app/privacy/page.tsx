@@ -1,5 +1,12 @@
-
 import CTASection from "@/components/ui/CTASection";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | DivineeSoft Technology",
+  description:
+    "Learn how DivineeSoft Technology collects, protects, and manages your personal data and privacy across our website and digital services.",
+  keywords: "privacy policy, data security, DivineeSoft Technology, terms, GDPR compliance",
+};
 
 interface PrivacySection {
   title: string;
@@ -26,11 +33,6 @@ const privacyPolicyData: PrivacySection[] = [
         <p>
           We may collect, use, store and transfer different kinds of personal data about you which we have grouped together follows:
         </p>
-        {/* <ul>
-          <li><strong>Identity Data</strong> includes first name, last name, username or similar identifier.</li>
-          <li><strong>Contact Data</strong> includes billing address, delivery address, email address and telephone numbers.</li>
-          <li><strong>Technical Data</strong> includes internet protocol (IP) address, your login data, browser type and version.</li>
-        </ul> */}
       </>
     ),
   },
@@ -93,5 +95,5 @@ export default function PrivacyPage() {
         <CTASection />
       </main>
     </>
-  )
+  );
 }
