@@ -28,8 +28,6 @@ export default function Logo({
     setMounted(true);
   }, []);
 
-  // Reserve the final rendered size before mount so the header
-  // doesn't jump/reflow once the theme resolves on the client.
   if (!mounted) {
     return (
       <div
