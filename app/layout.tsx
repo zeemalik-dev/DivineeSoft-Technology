@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     siteName: "DivineeSoft Technology",
     images: [
       {
-        url: "/icon.png",
+        url: "/icons/icon-192x192.png",
         width: 1200,
         height: 630,
         alt: "DivineeSoft Technology",
@@ -68,7 +68,7 @@ export const metadata: Metadata = {
     title: "DivineeSoft Technology | Digital Product Agency",
     description:
       "Scale your business with expert web development, mobile apps, AI solutions, and digital growth strategies.",
-    images: ["/icon.png"],
+    images: ["/icons/icon-192x192.png"],
   },
 };
 
