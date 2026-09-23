@@ -30,7 +30,7 @@ export default function Home() {
       <Services />
       <Stats />
       {/* <WeSolveIt /> */}
-      <InternationalPartners />
+      {/* <InternationalPartners /> */}
       <BusinessChallenges />
       <PartnershipSection />
       <Testimonials />
