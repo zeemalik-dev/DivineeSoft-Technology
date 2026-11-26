@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -118,6 +119,7 @@ export default function RootLayout({
           <Footer />
           <ChatBot />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
