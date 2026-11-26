@@ -81,6 +81,10 @@ export default function RootLayout({
       <head>
         {/* Google tag (gtag.js) */}
         <Script
+          defer src="https://cloud.umami.is/script.js"
+          data-website-id="1aa7dc45-d2cc-4231-879b-98f0d66651b0" 
+        />
+        <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-6FVL9X6RKP"
         />
