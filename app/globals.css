@@ -6,199 +6,140 @@
 
 @theme inline {
 
-  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
 
   --radius-sm: calc(var(--radius) - 4px);
-
   --radius-md: calc(var(--radius) - 2px);
-
   --radius-lg: var(--radius);
-
   --radius-xl: calc(var(--radius) + 4px);
-
   --radius-2xl: calc(var(--radius) + 8px);
-
   --radius-3xl: calc(var(--radius) + 12px);
-
   --radius-4xl: calc(var(--radius) + 16px);
 
   --color-background: var(--background);
-
   --color-foreground: var(--foreground);
-
   --color-card: var(--card);
-
   --color-card-foreground: var(--card-foreground);
-
   --color-popover: var(--popover);
-
   --color-popover-foreground: var(--popover-foreground);
-
   --color-primary: var(--primary);
-
   --color-primary-foreground: var(--primary-foreground);
-
   --color-secondary: var(--secondary);
-
   --color-secondary-foreground: var(--secondary-foreground);
-
   --color-muted: var(--muted);
-
   --color-muted-foreground: var(--muted-foreground);
-
-  /* --color-accent: var(--accent); */
   --color-accent: var(--accent);
-
   --color-accent-foreground: var(--accent-foreground);
-
+  --color-mint: var(--mint);
+  --color-amber: var(--amber);
   --color-destructive: var(--destructive);
-
   --color-border: var(--border);
-
   --color-input: var(--input);
-
   --color-ring: var(--ring);
-
   --color-chart-1: var(--chart-1);
-
   --color-chart-2: var(--chart-2);
-
   --color-chart-3: var(--chart-3);
-
   --color-chart-4: var(--chart-4);
-
   --color-chart-5: var(--chart-5);
-
   --color-sidebar: var(--sidebar);
-
   --color-sidebar-foreground: var(--sidebar-foreground);
-
   --color-sidebar-primary: var(--sidebar-primary);
-
   --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
-
   --color-sidebar-accent: var(--sidebar-accent);
-
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
-
   --color-sidebar-border: var(--sidebar-border);
-
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* ===== LIGHT THEME ===== */
 :root {
+  --radius: 0.75rem;
 
-  --radius: 0.625rem;
-
-  /* Background Colors */
-  --background: #f5f7fb;
-  /* --foreground: #2D3E50; */
-  --foreground: #000000;
-  /* Body text */
-  --menu: #000000;
+  --background: #F7F7F4;
+  --foreground: #0A0B10;
+  --menu: #0A0B10;
 
   --card: #FFFFFF;
-  --card-foreground: #2D3E50;
+  --card-foreground: #0A0B10;
 
   --popover: #FFFFFF;
-  --popover-foreground: #2D3E50;
+  --popover-foreground: #0A0B10;
 
-  /* Primary - DivineeSoft Blue */
-  /* --primary: #4A90D9; */
+  /* Primary Blue */
   --primary: #094BF0;
   --primary-foreground: #FFFFFF;
 
-  /* Secondary - DivineeSoft Teal */
-  /* --secondary: #2BC4B4; */
+  /* Secondary */
   --secondary: #094BF0;
   --secondary-foreground: #FFFFFF;
 
-  --muted: #F4FBFF;
-  /* Ice Blue */
+  /* Mint & Amber accents */
+  --mint: #34E3A0;
+  --amber: #FFB020;
+
+  --muted: #EFEFEC;
   --muted-foreground: #6B7C93;
 
-  /* Accent - DivineeSoft Bright Cyan */
-  /* --accent: #00E5CC; */
   --accent: #094BF0;
-  /* --accent-foreground: #0B1A2E; */
-  --accent-foreground: #ffffff;
+  --accent-foreground: #FFFFFF;
 
   --destructive: oklch(0.577 0.245 27.325);
 
-  --border: #D8E8F5;
-  /* Light Border */
-  --input: #D8E8F5;
-  --ring: #4A90D9;
-  /* Blue Border */
+  --border: #E2E5EE;
+  --input: #E2E5EE;
+  --ring: #094BF0;
 }
 
+/* ===== DARK THEME ===== */
 .dark {
-  /* Background Colors */
-  --background: #030712;
-  /* Text on dark bg */
-  --foreground: #FFFFFF;
-  /* Text on dark bg */
-  --card: #0c1322;
-  /* Cards on dark bg */
-  --card-foreground: #FFFFFF;
-/* menu in dark  */
-  --menu: #ffffff;
+  --background: #0A0B10;
+  --foreground: #F4F5F7;
+  --menu: #F4F5F7;
 
-  --popover: #0c1322;
-  --popover-foreground: #FFFFFF;
+  --card: #12141C;
+  --card-foreground: #F4F5F7;
 
-  /* Primary - DivineeSoft Blue */
-  /* --primary: #4A90D9; */
+  --popover: #12141C;
+  --popover-foreground: #F4F5F7;
+
+  /* Primary Blue */
   --primary: #094BF0;
   --primary-foreground: #FFFFFF;
 
-  /* Secondary - DivineeSoft Teal */
-  /* --secondary: #2BC4B4; */
+  /* Secondary */
   --secondary: #094BF0;
   --secondary-foreground: #FFFFFF;
 
-  --muted: #090f1d;
-  /* Borders / muted on dark bg */
-  --muted-foreground: #A0B4C8;
+  /* Mint & Amber */
+  --mint: #34E3A0;
+  --amber: #FFB020;
 
-  /* Accent - DivineeSoft Bright Cyan */
-  /* --accent: #00E5CC; */
+  --muted: #12141C;
+  --muted-foreground: #9AA0B4;
+
   --accent: #094BF0;
-  /* --accent-foreground: #0B1A2E; */
-  --accent-foreground: #ffffff;
+  --accent-foreground: #FFFFFF;
 
   --destructive: oklch(0.704 0.191 22.216);
 
-  --border: #162235;
-  /* Dark Border */
-  --input: #162235;
+  --border: #232634;
+  --input: #232634;
   --ring: #094BF0;
-  /* Accent Border on focus */
 
   --chart-1: oklch(0.488 0.243 264.376);
-
   --chart-2: oklch(0.696 0.17 162.48);
-
   --chart-3: oklch(0.769 0.188 70.08);
-
   --chart-4: oklch(0.627 0.265 303.9);
-
   --chart-5: oklch(0.645 0.246 16.439);
 
   --sidebar: oklch(0.205 0 0);
-
   --sidebar-foreground: oklch(0.985 0 0);
-
   --sidebar-primary: oklch(0.488 0.243 264.376);
-
   --sidebar-primary-foreground: oklch(0.985 0 0);
-
   --sidebar-accent: oklch(0.269 0 0);
-
   --sidebar-accent-foreground: oklch(0.985 0 0);
-
   --sidebar-border: oklch(1 0 0 / 10%);
-
   --sidebar-ring: oklch(0.556 0 0);
 }
 
@@ -210,14 +151,12 @@
 
   body {
     @apply bg-background text-foreground;
-    background-image: radial-gradient(at 0% 0%, rgba(9, 75, 240, 0.05) 0px, transparent 50%),
-                      radial-gradient(at 100% 0%, rgba(9, 75, 240, 0.03) 0px, transparent 50%);
-    background-attachment: fixed;
   }
 
   .dark body {
-    background-image: radial-gradient(at 0% 0%, rgba(9, 75, 240, 0.12) 0px, transparent 60%),
-                      radial-gradient(at 100% 100%, rgba(9, 75, 240, 0.08) 0px, transparent 60%);
+    background-image:
+      radial-gradient(at 0% 0%, rgba(9, 75, 240, 0.08) 0px, transparent 60%),
+      radial-gradient(at 100% 100%, rgba(52, 227, 160, 0.04) 0px, transparent 60%);
     background-attachment: fixed;
   }
 
@@ -237,5 +176,9 @@
 
   a, button {
     cursor: pointer;
+  }
+
+  .font-terminal {
+    font-family: var(--font-mono), ui-monospace, monospace;
   }
 }

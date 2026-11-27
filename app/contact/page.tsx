@@ -1,11 +1,15 @@
-import { Metadata } from 'next';
-import ContactClient from './ContactClient';
+import { Metadata } from "next";
+import ContactClient from "./ContactClient";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Contact Us | DivineeSoft Technology",
-  description: "Get in touch with DivineeSoft Technology to discuss your web, mobile, AI, or marketing project. Request a free quote today.",
-  keywords: "contact DivineeSoft Technology, digital agency contact, web development inquiry, app development contact, AI solutions inquiry, marketing services contact",
-};
+export const metadata: Metadata = buildMetadata({
+  title: "Contact Us",
+  description:
+    "Get in touch with DivineeSoft Technologies to discuss your web, mobile, AI, or SaaS project. Reply within 24 hours.",
+  path: "/contact",
+  keywords:
+    "contact DivineeSoft Technologies, software partner inquiry, web development, app development, AI solutions",
+});
 
 export default function ContactPage() {
   return <ContactClient />;

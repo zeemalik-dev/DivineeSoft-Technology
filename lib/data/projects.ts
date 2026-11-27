@@ -1,5 +1,251 @@
 export const projects = [
   {
+    id: "kutagjej",
+    categories: ["App Development", "Web Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "KuTaGjej — Albanian Classifieds",
+      slug: "kutagjej",
+      date: "2026-11-15",
+    },
+    seo: {
+      title: "KuTaGjej Albanian Classifieds & Services | DivineeSoft",
+      description: "KuTaGjej is an Albanian classifieds and services platform on web and iOS, built with Flutter, Firebase, and Algolia search.",
+      keywords: "KuTaGjej, Albanian classifieds app, Flutter, Firebase, Algolia, DivineeSoft Technologies"
+    },
+    client: {
+      name: "KuTaGjej (Albania)",
+    },
+    overview: {
+      summary: "An Albanian classifieds and services platform available on web and mobile, helping people discover property, cars, marketplace items, jobs, businesses, and professionals across Albania.",
+      problem: "Buyers, sellers, and service providers across Albania needed a fast, unified mobile-first platform to browse categorized listings by city, contact sellers directly, and manage profiles.",
+      solution: "Built with Flutter and Dart backed by Firebase Authentication, Cloud Firestore, Cloud Storage, Cloud Messaging, and Algolia instant search — enabling real-time filtering by city and category plus in-app messaging.",
+      outcome: "Shipped live on the web (kutagjej.al) and the Apple App Store, connecting users across Albania in one responsive marketplace.",
+    },
+    services: ["Flutter & Dart", "Firebase Suite", "Algolia Search", "Web & iOS App"],
+    value: "Delivered a nationwide Albanian classifieds and local services marketplace across web and mobile.",
+    images: { thumbnail: "/projects/kutagjej.jpg", cover: "/projects/kutagjej.jpg", gallery: [] },
+    links: {
+      website: "https://www.kutagjej.al/",
+      appStore: "https://apps.apple.com/al/app/kutagjej/id6816097736",
+      github: "https://github.com/zeemalik-dev/KuTaGjej-Albanian-Mobile-App"
+    }
+  },
+  {
+    id: "ai-dispatching-app",
+    categories: ["AI Development and Services", "SaaS Product Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "AI Dispatch — Voice AI & Ops",
+      slug: "ai-dispatching-app",
+      date: "2026-11-14",
+    },
+    seo: {
+      title: "AI Dispatch Voice AI & Dispatch Workspace | DivineeSoft",
+      description: "AI Dispatch brings Vapi.ai voice assistants and day-to-day service operations together in one web application.",
+      keywords: "AI Dispatch, Vapi.ai, AI voice assistant, field service dispatch, Flutter Web, DivineeSoft Technologies"
+    },
+    client: {
+      name: "AI Dispatch",
+    },
+    overview: {
+      summary: "An AI-assisted workspace for calls, leads, and service dispatch — bringing Vapi.ai voice assistants and day-to-day field operations together in one web application.",
+      problem: "Service teams lose leads when phone lines are busy and waste hours manually coordinating technicians, call records, estimates, and invoices across disconnected tools.",
+      solution: "Built a Flutter/Dart web & mobile platform with Firebase Cloud Functions, Vapi.ai inbound/outbound AI voice agents, phone number provisioning, call masking, job scheduling, technician dispatch, SMS/WhatsApp tools, and Service Fusion integration.",
+      outcome: "Live at app.aidispatch.net — automating inbound/outbound customer calls, lead capture, job dispatching, and invoicing from a single command center.",
+    },
+    services: ["Vapi.ai Voice Agents", "Flutter Web & Mobile", "Firebase & Cloud Functions", "SMS / WhatsApp & Service Fusion"],
+    value: "Unified AI-powered phone agents with end-to-end technician dispatch and billing.",
+    images: { thumbnail: "/projects/ai-dispatch.png", cover: "/projects/ai-dispatch.png", gallery: [] },
+    links: {
+      website: "https://app.aidispatch.net/",
+      github: "https://github.com/zeemalik-dev/AI-Dispatching-App"
+    }
+  },
+  {
+    id: "petroqwiq",
+    categories: ["App Development", "SaaS Product Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "PetroQwiq — On-Demand Fuel Delivery",
+      slug: "petroqwiq",
+      date: "2026-11-13",
+    },
+    seo: {
+      title: "PetroQwiq Fuel Delivery App | DivineeSoft",
+      description: "PetroQwiq delivers fuel to your vehicle or site in a few taps with live tanker map tracking and a Virtual Fuel Tank wallet.",
+      keywords: "PetroQwiq, fuel delivery app, live tanker tracking, Virtual Fuel Tank, Flutter, DivineeSoft Technologies"
+    },
+    client: {
+      name: "PetroQwiq",
+    },
+    overview: {
+      summary: "On-demand fuel delivery platform that brings fuel directly to your vehicle, site, or any location in just a few taps with live tanker map tracking and a Virtual Fuel Tank.",
+      problem: "Vehicle owners and fleet operators needed a transparent, contactless way to order fuel on demand, track tankers in real time, and manage prepaid fuel balances without hidden fees.",
+      solution: "Developed the PetroQwiq Client mobile app for iOS and Android featuring fuel type & quantity selection, live GPS tanker tracking, Virtual Fuel Tank balance management, and full order history with digital receipts.",
+      outcome: "Published on both Google Play and the Apple App Store, delivering fast, transparent on-demand fuel ordering.",
+    },
+    services: ["Flutter", "Live Map Tracking", "Virtual Fuel Tank", "iOS & Android"],
+    value: "Brought real-time tanker tracking and digital fuel wallets to on-demand fuel delivery.",
+    images: {
+      thumbnail: "/projects/petroqwiq-1.jpg",
+      cover: "/projects/petroqwiq-1.jpg",
+      gallery: [
+        "/projects/petroqwiq-1.jpg",
+        "/projects/petroqwiq-2.jpg",
+        "/projects/petroqwiq-3.jpg",
+      ]
+    },
+    links: {
+      website: "https://petroqwiq.com/",
+      playStore: "https://play.google.com/store/apps/details?id=com.petroqwiq.user",
+      appStore: "https://apps.apple.com/us/app/petroqwiq-client/id6590624622",
+      github: "https://github.com/zeemalik-dev/PetroQwiq-Client-App"
+    }
+  },
+  {
+    id: "wilan-learn",
+    categories: ["App Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "WILAN Learn — Online Courses App",
+      slug: "wilan-learn",
+      date: "2026-11-12",
+    },
+    seo: {
+      title: "WILAN Learn Leadership Courses App | DivineeSoft",
+      description: "WILAN Learn brings practical leadership and professional development courses to your phone for women across Africa.",
+      keywords: "WILAN Learn, online courses app, EdTech mobile app, Flutter, DivineeSoft Technologies"
+    },
+    client: {
+      name: "WILAN (Women in Leadership Advancement Network)",
+    },
+    overview: {
+      summary: "Practical leadership and professional development learning app built for women building their careers and leadership journeys across Africa.",
+      problem: "Learners needed a structured, mobile-first way to discover courses, watch lessons at their own pace, and track enrolled progress on the go.",
+      solution: "Built a clean Flutter mobile app with category-based course discovery, structured lesson playback, enrollment tracking, and seamless account management.",
+      outcome: "Live on Google Play and wilaninstitute.app, empowering women across Africa with accessible leadership education.",
+    },
+    services: ["Flutter", "EdTech", "Mobile App Development", "UI/UX Design"],
+    value: "Made practical leadership and career development accessible on mobile across Africa.",
+    images: { thumbnail: "/projects/wilan-learn.jpg", cover: "/projects/wilan-learn.jpg", gallery: [] },
+    links: {
+      website: "https://wilaninstitute.app/",
+      playStore: "https://play.google.com/store/apps/details?id=app.wilaninstitute.learn",
+      github: "https://github.com/zeemalik-dev/Online-Courses-App"
+    }
+  },
+  {
+    id: "escroc-app",
+    categories: ["App Development", "SaaS Product Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "Escroc — Escrow & Wallet App",
+      slug: "escroc-app",
+      date: "2026-11-11",
+    },
+    seo: {
+      title: "Escroc Escrow & Wallet Mobile App | DivineeSoft",
+      description: "Escroc is a Flutter mobile app for managing escrow transactions, manual & crypto payments, KYC, 2FA, and wallet activity.",
+      keywords: "Escroc, escrow mobile app, FinTech Flutter app, KYC, crypto escrow, DivineeSoft Technologies"
+    },
+    client: {
+      name: "Escroc / KrokroDeal",
+    },
+    overview: {
+      summary: "A FinTech Flutter mobile app for creating and tracking secure escrow transactions, managing wallets, and communicating between buyers and sellers.",
+      problem: "Buyers and sellers needed a trustworthy mobile workflow to hold funds in escrow, handle manual or crypto payments, resolve disputes, and verify identity.",
+      solution: "Engineered a full-featured Flutter escrow app supporting deal creation, manual & crypto buyer payment flows, in-app chat with file sharing, dispute & release actions, multi-currency wallet management, email verification, KYC, and optional 2FA.",
+      outcome: "Delivered a secure, end-to-end mobile escrow and wallet platform ready for FinTech deployment.",
+    },
+    services: ["Flutter", "FinTech & Escrow", "KYC & 2FA Security", "In-App Chat"],
+    value: "Enabled safe peer-to-peer and marketplace transactions with built-in escrow and dispute resolution.",
+    images: { thumbnail: "/projects/escroc.png", cover: "/projects/escroc.png", gallery: [] },
+    links: {
+      github: "https://github.com/zeemalik-dev/Escroc-Mobile-App"
+    }
+  },
+  {
+    id: "yopii-app",
+    categories: ["App Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "Yoopii — Social Commerce & Short Video",
+      slug: "yopii-app",
+      date: "2026-11-10",
+    },
+    seo: {
+      title: "Yoopii Social Commerce & Short Video App | DivineeSoft",
+      description: "Yoopii combines a TikTok-style short-form vertical video feed with social commerce, live streaming, and creator shops.",
+      keywords: "Yoopii, social commerce app, TikTok style Flutter app, live streaming, DivineeSoft Technologies"
+    },
+    client: {
+      name: "Yoopii",
+    },
+    overview: {
+      summary: "A modern mobile social commerce platform inspired by short-form vertical video experiences — combining creator storytelling, live streams, social chat, and in-app shopping.",
+      problem: "Creators and social sellers needed a unified mobile platform where short-form video engagement flows directly into product discovery and live shopping.",
+      solution: "Built with Flutter, Provider, GetX, and Secure Storage featuring a TikTok-inspired For You vertical feed, live mode selection, creator shops with sales metrics, social chat, media upload flows, and notifications.",
+      outcome: "Published on Google Play, delivering a smooth creator-first short-video and social commerce experience.",
+    },
+    services: ["Flutter & Dart", "Short-Video Feed", "Social Commerce", "Live Streaming UI"],
+    value: "Merged short-form vertical video engagement with creator storefronts in one mobile app.",
+    images: { thumbnail: "/projects/yoopii.jpg", cover: "/projects/yoopii.jpg", gallery: [] },
+    links: {
+      playStore: "https://play.google.com/store/apps/details?id=com.yoop.yoopii&hl=en",
+      github: "https://github.com/zeemalik-dev/Yopii-Tiktok-MobileApp"
+    }
+  },
+  {
+    id: "gym-pro",
+    categories: ["SaaS Product Development", "App Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "GYM Pro — Gym Management System",
+      slug: "gym-pro",
+      date: "2026-11-10",
+    },
+    seo: {
+      title: "GYM Pro Gym Management System | DivineeSoft",
+      description: "How DivineeSoft built GYM Pro, a live gym management SaaS and mobile app with fast check-ins, payments, daily cash closing, and WhatsApp reminders.",
+      keywords: "GYM Pro, gym management software, fitness SaaS, gym check-in app, DivineeSoft Technologies"
+    },
+    client: {
+      name: "DivineeSoft Own Product",
+    },
+    overview: {
+      summary: "A complete gym management SaaS and mobile app running live at gym.divineesoft.com, built to automate front-desk check-ins, payments, daily cash closing, and member retention.",
+      problem: "Gym owners struggled with paper registers, slow front-desk check-ins, missed membership renewals, and zero visibility into daily cash closing and staff collections.",
+      solution: "We engineered GYM Pro across web and mobile with 1-tap fast member check-ins, streamlined new member onboarding, fee payment tracking, daily cash closing reconciliation, attendance logs, automated WhatsApp reminders, and real-time financial reports.",
+      outcome: "Powering day-to-day gym operations 24/7 with faster check-ins, automated WhatsApp fee reminders, and accurate daily cash reconciliation.",
+    },
+    services: ["SaaS Architecture", "Mobile App Development", "Fast Check-In Desk", "Payments & Cash Closing", "WhatsApp Automation", "Analytics & Reports"],
+    value: "Eliminated manual spreadsheets and automated front-desk, billing, and member retention in one unified platform.",
+    images: {
+      thumbnail: "/projects/GYM Pro App SS/feature-graphic-1024x500.png",
+      cover: "/projects/GYM Pro App SS/feature-graphic-1024x500.png",
+      gallery: [
+        "/projects/GYM Pro App SS/screenshot-01-fast-checkin.png",
+        "/projects/GYM Pro App SS/screenshot-02-new-member.png",
+        "/projects/GYM Pro App SS/screenshot-03-payments.png",
+        "/projects/GYM Pro App SS/screenshot-04-cash-closing.png",
+        "/projects/GYM Pro App SS/screenshot-05-attendance.png",
+        "/projects/GYM Pro App SS/screenshot-06-reminders.png",
+        "/projects/GYM Pro App SS/screenshot-07-reports.png",
+      ]
+    },
+    links: {
+      website: "https://www.gym.divineesoft.com"
+    }
+  },
+  {
     id: "barberz-link",
     categories: ["App Development", "SaaS Product Development"],
     type: "case-study",
@@ -531,6 +777,68 @@ export const projects = [
     images: { thumbnail: "/projects/atecs.png", cover: "/projects/atecs.png", gallery: [] },
     links: {
       website: "https://technologiesedu.com/"
+    }
+  },
+  {
+    id: "kitty-expense-app",
+    categories: ["App Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "Kitty — Expense Tracker App",
+      slug: "kitty-expense-app",
+      date: "2026-11-06",
+    },
+    seo: {
+      title: "Kitty Expense Tracker Flutter App | DivineeSoft",
+      description: "A clean Flutter personal finance and expense management app crafted from high-fidelity Figma designs.",
+      keywords: "Kitty Expense App, Flutter finance app, expense tracker, Figma to Flutter, DivineeSoft Technologies"
+    },
+    client: {
+      name: "Open Source / R&D",
+    },
+    overview: {
+      summary: "A fast, intuitive Flutter mobile application for tracking daily personal expenses, categories, and monthly budgets.",
+      problem: "Many expense trackers overwhelm users with cluttered spreadsheets instead of quick, visual daily logging.",
+      solution: "Translated a modern Figma UI system into pixel-accurate Flutter screens with smooth category breakdowns and fast transaction entry.",
+      outcome: "Showcased rapid Figma-to-Flutter execution with clean state management and responsive mobile UI.",
+    },
+    services: ["Flutter", "Dart", "Figma to Code", "UI/UX Engineering"],
+    value: "Demonstrated pixel-perfect Figma-to-Flutter mobile product craftsmanship.",
+    images: { thumbnail: "/projects/project1.jpg", cover: "/projects/project1.jpg", gallery: [] },
+    links: {
+      github: "https://github.com/zeemalik-dev/Kitty-Expense-App"
+    }
+  },
+  {
+    id: "chess-web-app",
+    categories: ["Web Development"],
+    type: "case-study",
+    status: "completed",
+    meta: {
+      title: "Interactive Chess Web App",
+      slug: "chess-web-app",
+      date: "2026-11-07",
+    },
+    seo: {
+      title: "Chess Web App in TypeScript | DivineeSoft",
+      description: "A responsive TypeScript Chess web application featuring full move validation, game state management, and clean interactive board UI.",
+      keywords: "Chess web app, TypeScript game engine, React web app, DivineeSoft Technologies"
+    },
+    client: {
+      name: "Open Source / R&D",
+    },
+    overview: {
+      summary: "A TypeScript-powered interactive Chess web application with full rule validation and responsive board play.",
+      problem: "Building a zero-bug browser chess engine requires strict state modeling for legal moves, captures, checks, and turn management.",
+      solution: "Engineered a type-safe TypeScript web application with clean board rendering, move validation, and responsive controls.",
+      outcome: "Delivered a fast, zero-dependency-bloat browser chess experience.",
+    },
+    services: ["TypeScript", "Web Development", "Game State Logic", "UI Engineering"],
+    value: "Demonstrated strict TypeScript state modeling and interactive web UI.",
+    images: { thumbnail: "/projects/project2.jpg", cover: "/projects/project2.jpg", gallery: [] },
+    links: {
+      github: "https://github.com/zeemalik-dev/CHESS-WEB-APP"
     }
   },
 ];
