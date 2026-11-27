@@ -1,52 +1,58 @@
-import Link from 'next/link'
-
-import { Button } from '@/components/ui/button'
-import { ArrowLeft, Home } from 'lucide-react'
+import Link from "next/link";
+import { ArrowRight, Calculator } from "lucide-react";
 
 export default function NotFound() {
   return (
-    <>
-
-      <div className="min-h-screen bg-background flex flex-col items-center justify-center p-4 relative overflow-hidden">
-
-        {/* Abstract Background Elements */}
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-200/20 rounded-full blur-3xl pointer-events-none -translate-x-1/2 -translate-y-1/2"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-indigo-200/20 rounded-full blur-3xl pointer-events-none translate-x-1/2 translate-y-1/2"></div>
-
-        <div className="relative z-10 text-center max-w-2xl px-6">
-          <h1 className="text-[150px] md:text-[200px] font-black text-foreground leading-none tracking-tighter opacity-10">
-            404
-          </h1>
-
-          <div className="-mt-12 md:-mt-20">
-            <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-              Page Not Found
-            </h2>
-            <p className="text-muted-foreground text-lg md:text-xl mb-10 leading-relaxed max-w-lg mx-auto">
-              We couldn't locate the page you're looking for. It might have been moved, deleted, or the URL might be incorrect.
-            </p>
-
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button asChild className="bg-secondary hover:bg-secondary/90 text-secondary-foreground rounded-full h-12 px-8 text-base shadow-lg hover:shadow-xl transition-all">
-                <Link href="/" className="flex items-center gap-2">
-                  <Home size={18} />
-                  Back to Home
-                </Link>
-              </Button>
-
-              <Button asChild variant="outline" className="border-border hover:bg-muted text-foreground rounded-full h-12 px-8 text-base">
-                <Link href="/contact" className="flex items-center gap-2">
-                  Contact Support
-                </Link>
-              </Button>
-            </div>
+    <main className="min-h-screen bg-background flex items-center justify-center">
+      <div className="text-center px-5 max-w-lg">
+        {/* Terminal 404 */}
+        <div className="inline-block rounded-2xl border border-border bg-card p-6 mb-10 font-terminal text-sm text-left w-full">
+          <div className="flex items-center gap-2 mb-4">
+            <span className="h-3 w-3 rounded-full bg-[#ff5f57]" />
+            <span className="h-3 w-3 rounded-full bg-[#febc2e]" />
+            <span className="h-3 w-3 rounded-full bg-[#28c840]" />
+            <span className="ml-2 text-xs text-muted-foreground">~/divineesoft</span>
           </div>
+          <p className="text-muted-foreground">
+            <span className="text-[#34E3A0]">→</span> cd{" "}
+            <span className="text-blue-400">this-page</span>
+          </p>
+          <p className="text-red-400 mt-1">
+            bash: this-page: No such file or directory
+          </p>
+          <p className="text-muted-foreground mt-2">
+            <span className="text-[#34E3A0]">→</span> echo $?
+          </p>
+          <p className="text-foreground">404</p>
         </div>
 
-        <div className="absolute bottom-10 text-muted-foreground text-sm">
-          &copy; {new Date().getFullYear()} DivineeSoft Technology. All rights reserved.
+        <h1 className="text-5xl font-extrabold text-foreground mb-4">
+          Page not found
+        </h1>
+        <p className="text-muted-foreground text-lg mb-8">
+          The page you&apos;re looking for doesn&apos;t exist. Try one of these instead.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link
+            href="/work"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-white hover:bg-primary/90 transition-colors"
+          >
+            See our work <ArrowRight size={14} />
+          </Link>
+          <Link
+            href="/estimate"
+            className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold hover:bg-muted transition-colors"
+          >
+            <Calculator size={14} /> Project Estimator
+          </Link>
+          <Link
+            href="/"
+            className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-semibold hover:bg-muted transition-colors"
+          >
+            Go home
+          </Link>
         </div>
       </div>
-    </>
-  )
+    </main>
+  );
 }

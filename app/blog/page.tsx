@@ -5,12 +5,16 @@ import { Calendar, User, ArrowUpRight } from "lucide-react";
 import CTASection from "@/components/ui/CTASection";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Blog & Insights | DivineeSoft Technology",
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Blog & Insights",
   description:
-    "Explore the latest insights, trends, and expert guides on AI, mobile app engineering, web development, and digital marketing from DivineeSoft.",
-  keywords: "tech blog, AI insights, web development articles, mobile app trends, digital marketing guides, DivineeSoft Technology",
-};
+    "Explore the latest insights, trends, and expert guides on AI, mobile app engineering, web development, and SaaS growth.",
+  path: "/blog",
+  keywords:
+    "tech blog, AI insights, web development articles, mobile app trends, DivineeSoft Technologies",
+});
 
 // Helper to strip HTML tags and decode standard entities
 const stripHtml = (html: string) => {

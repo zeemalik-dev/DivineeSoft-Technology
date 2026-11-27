@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Inter, JetBrains_Mono } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
@@ -8,34 +8,45 @@ import Footer from "@/components/layout/Footer";
 import HeaderSpacer from "@/components/layout/HeaderSpacer";
 import { ThemeProvider } from "@/components/theme-provider";
 import ScrollToTop from "@/components/ui/ScrollToTop";
-import Preloader from "@/components/ui/Preloader";
 import ChatBot from "@/components/ChatBot";
+import WhatsAppFloat from "@/components/WhatsAppFloat";
 
-const montserrat = Montserrat({
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-jetbrains-mono",
+  display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.divineesoft.com"),
   title: {
-    default: "DivineeSoft Technology | Digital Product Agency",
-    template: "%s | DivineeSoft Technology",
+    default: "DivineeSoft Technologies | Product & Software Partner",
+    template: "%s | DivineeSoft Technologies",
   },
   description:
-    "DivineeSoft Technology builds scalable web platforms, mobile apps, custom AI solutions, and data-driven digital marketing to accelerate your growth.",
+    "We build the product. Then we run it with you. DivineeSoft Technologies — mobile apps, SaaS platforms, AI agents, and cloud infrastructure. 14 live products, 40+ countries.",
   keywords: [
-    "digital agency",
-    "web development",
+    "product development",
     "mobile app development",
+    "SaaS platform",
     "AI solutions",
-    "SEO services",
+    "Flutter development",
+    "Next.js development",
     "cloud infrastructure",
-    "SaaS product development",
+    "technical partner",
+    "Lahore Pakistan",
+    "DivineeSoft Technologies",
   ],
-  authors: [{ name: "DivineeSoft Technology" }],
-  creator: "DivineeSoft Technology",
-  publisher: "DivineeSoft Technology",
+  authors: [{ name: "DivineeSoft Technologies" }],
+  creator: "DivineeSoft Technologies",
+  publisher: "DivineeSoft Technologies",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
@@ -43,22 +54,20 @@ export const metadata: Metadata = {
       { url: "/icons/icon-192x192.png", sizes: "192x192", type: "image/png" },
       { url: "/icons/icon-512x512.png", sizes: "512x512", type: "image/png" },
     ],
-    apple: [
-      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
-    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
   openGraph: {
-    title: "DivineeSoft Technology | Digital Product Agency",
+    title: "DivineeSoft Technologies | Product & Software Partner",
     description:
-      "Transforming real problems into digital reality with custom web, mobile, AI, and cloud solutions.",
+      "We build the product. Then we run it with you. 14 live products, 40+ countries, 5+ years.",
     url: "https://www.divineesoft.com",
-    siteName: "DivineeSoft Technology",
+    siteName: "DivineeSoft Technologies",
     images: [
       {
-        url: "/icons/icon-192x192.png",
+        url: "/icons/icon-512x512.png",
         width: 1200,
         height: 630,
-        alt: "DivineeSoft Technology",
+        alt: "DivineeSoft Technologies",
       },
     ],
     locale: "en_US",
@@ -66,10 +75,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "DivineeSoft Technology | Digital Product Agency",
+    title: "DivineeSoft Technologies | Product & Software Partner",
     description:
-      "Scale your business with expert web development, mobile apps, AI solutions, and digital growth strategies.",
-    images: ["/icons/icon-192x192.png"],
+      "We build real platforms — then run them with you. Mobile apps, SaaS, AI, Cloud.",
+    images: ["/icons/icon-512x512.png"],
   },
 };
 
@@ -79,7 +88,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Google tag (gtag.js) */}
+        {/* Google Analytics */}
         <Script
           defer src="https://cloud.umami.is/script.js"
           data-website-id="1aa7dc45-d2cc-4231-879b-98f0d66651b0" 
@@ -100,27 +109,50 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* JSON-LD: Organization */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "DivineeSoft Technologies",
+              url: "https://www.divineesoft.com",
+              logo: "https://www.divineesoft.com/logo.png",
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+92-314-6256754",
+                contactType: "customer support",
+              },
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Lahore",
+                addressRegion: "Punjab",
+                addressCountry: "PK",
+              },
+              sameAs: [
+                "https://www.linkedin.com/company/divineesoft-technologies/",
+              ],
+            }),
+          }}
+        />
       </head>
       <body
-        className={`${montserrat.variable} font-sans antialiased flex flex-col min-h-screen w-screen overflow-x-hidden`}
+        className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased flex flex-col min-h-screen w-screen overflow-x-hidden`}
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
-          <Preloader />
           <ScrollToTop />
           <Header />
-
-          {/* Header Spacer (Conditional) */}
           <HeaderSpacer />
-
-          {/* Main Content */}
           <main className="flex-grow">{children}</main>
-
           <Footer />
+          {/* Floating widgets */}
+          <WhatsAppFloat />
           <ChatBot />
         </ThemeProvider>
         <Analytics />

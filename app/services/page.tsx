@@ -1,11 +1,15 @@
-import { Metadata } from 'next';
-import ServicesClient from './ServicesClient';
+import { Metadata } from "next";
+import ServicesClient from "./ServicesClient";
+import { buildMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Services | DivineeSoft Technology",
-  description: "Explore DivineeSoft Technology's services, including custom web development, mobile apps, AI solutions, SEO, and cloud infrastructure.",
-  keywords: "digital agency services, web development, mobile app solutions, AI services, digital marketing strategies, business growth, innovative solutions",
-};
+export const metadata: Metadata = buildMetadata({
+  title: "Services",
+  description:
+    "Explore DivineeSoft Technologies' core engineering services: Mobile Apps, Web & SaaS Platforms, AI & Automation, and Cloud & DevOps.",
+  path: "/services",
+  keywords:
+    "software engineering services, mobile app development, SaaS development, AI solutions, cloud infrastructure",
+});
 
 export default function ServicesPage() {
   return <ServicesClient />;

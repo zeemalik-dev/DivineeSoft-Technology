@@ -29,6 +29,16 @@ const nextConfig: NextConfig = {
         destination: "/services/:path*",
         permanent: true,
       },
+      {
+        source: "/services/search-engine-optimization",
+        destination: "/services/seo",
+        permanent: true,
+      },
+      {
+        source: "/services/ai-development-services",
+        destination: "/services/ai-services",
+        permanent: true,
+      },
     ];
   },
 };
